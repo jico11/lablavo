@@ -12,6 +12,7 @@ import { FooterComponent } from './_pages/footer/footer.component';
 import { AboutusComponent } from './_pages/aboutus/aboutus.component';
 import { WorkteamComponent } from './_pages/workteam/workteam.component';
 import { ConveniosComponent } from './_pages/convenios/convenios.component';
+import { ExamenesComponent } from './_pages/examenes/examenes.component';
 
 export const firebaseConfig = environment.firebaseConfig;
 
@@ -24,7 +25,8 @@ export const firebaseConfig = environment.firebaseConfig;
     FooterComponent,
     AboutusComponent,
     WorkteamComponent,
-    ConveniosComponent
+    ConveniosComponent,
+    ExamenesComponent
   ],
   imports: [
     BrowserModule,
