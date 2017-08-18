@@ -9,7 +9,7 @@
                 
                 <a class="list-group-item collapsed" data-parent="#sidebar"><i class="fa fa-flask fa-size"></i> <span class="hidden-sm-down"></span></a>
                 
-                <a href="#" class="list-group-item collapsed" data-parent="#sidebar"><span class="hidden-sm-down">Bioquímicos</span></a>
+                <a routerLink="/bioquimicos" routerLinkActive="active" class="list-group-item collapsed" data-parent="#sidebar"><span class="hidden-sm-down">Bioquímicos</span></a>
                 <a href="#" class="list-group-item collapsed" data-parent="#sidebar"><span class="hidden-sm-down">Hormonas</span></a>
                 <a href="#" class="list-group-item collapsed" data-parent="#sidebar"><span class="hidden-sm-down">Serológicos</span></a>
                 <a href="#" class="list-group-item collapsed" data-parent="#sidebar"><span class="hidden-sm-down">Hematológicos</span></a>
@@ -34,3 +34,8 @@
 </div>
 
 <app-footer></app-footer>
+
+<nav>
+      <a routerLink="/bioquimicos" routerLinkActive="active">Dashboard</a>
+</nav>
+<router-outlet></router-outlet>

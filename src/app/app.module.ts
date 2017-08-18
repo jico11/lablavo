@@ -13,6 +13,8 @@ import { AboutusComponent } from './_pages/aboutus/aboutus.component';
 import { WorkteamComponent } from './_pages/workteam/workteam.component';
 import { ConveniosComponent } from './_pages/convenios/convenios.component';
 import { ExamenesComponent } from './_pages/examenes/examenes.component';
+import { BioquimicosComponent } from './_pages/examenes_pages/bioquimicos/bioquimicos.component';
+import { Examenes1Component } from './_pages/examenes1/examenes1.component';
 
 export const firebaseConfig = environment.firebaseConfig;
 
@@ -26,7 +28,9 @@ export const firebaseConfig = environment.firebaseConfig;
     AboutusComponent,
     WorkteamComponent,
     ConveniosComponent,
-    ExamenesComponent
+    ExamenesComponent,
+    BioquimicosComponent,
+    Examenes1Component
   ],
   imports: [
     BrowserModule,
